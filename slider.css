@@ -1,0 +1,52 @@
+/*
+body{
+    background: url(https://tse3.mm.bing.net/th?id=OIP.WhaduE4zTOv6Nc0KfBvpfAHaNK&pid=Api&P=0&w=300&h=300);
+    background-size: 500px;
+}*/
+#featured{
+    max-width: 600px;
+    max-height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid black;
+    
+}
+
+.thumbnail{
+    object-fit: cover;
+    max-width: 180px;
+    max-height: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 2px sloid rgb(221, 27, 27);
+}
+.thumbnail:hover{
+    opacity: 1;
+}
+.active{
+    opacity: 1;
+}
+#slide-wrapper{
+    max-width: 550px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+#slider{
+    width: 250px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.arrow:hover{
+    opacity: 0.5;
+    width: 35px;
+    height: 35px;
+}
